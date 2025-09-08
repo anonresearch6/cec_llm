@@ -23,8 +23,8 @@ concept_picking_threshold = 0.045 # 0.03 for mimic3-50l layer2, 0.045 for mimic3
 model_id = "meta-llama/Meta-Llama-3-8B"
 model_saving_path = "./rare_model_concept_1/" # model saving path
 model_output_path = "./rare_model_concept_1_output/" # model output path
-concept_type = "concept_1"
-code_list = rare_50[:]
+concept_type = "concept_1" #concept_2 for leaf level
+code_list = rare_50[:] #codes_50 for mimic3-50
 
 
 with open(concept_file, "r") as f:
