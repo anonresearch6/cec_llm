@@ -1,0 +1,404 @@
+[
+    {
+        "code": "250.00",
+        "concept_1": "Hyperglycemia;Insulin resistance;Metabolic syndrome;Weight management;Oral hypoglycemic agents"
+    },
+    {
+        "code": "272.0",
+        "concept_1": "Elevated LDL cholesterol;Statin therapy;Cardiovascular risk assessment;Atherosclerosis;Regular exercise"
+    },
+    {
+        "code": "272.4",
+        "concept_1": "Mixed hyperlipidemia;Elevated triglycerides;HDL cholesterol level;Lipid profile testing;Lifestyle modification"
+    },
+    {
+        "code": "285.9",
+        "concept_1": "Fatigue;Weakness;Pallor;Shortness of breath;Nutritional deficiencies"
+    },
+    {
+        "code": "38.93",
+        "concept_1": "Central venous access;Central venous pressure monitoring;Sterile technique;Thrombosis prevention;Fluid administration"
+    },
+    {
+        "code": "39.61",
+        "concept_1": "Cardiopulmonary bypass (CPB);Heart-lung machine operation;Oxygenator function;Myocardial protection (cardioplegia);Hemodynamic stability"
+    },
+    {
+        "code": "401.9",
+        "concept_1": "Blood pressure monitoring;Hypertension;Lifestyle modifications (diet, exercise);Antihypertensive regimen;Stress management"
+    },
+    {
+        "code": "414.01",
+        "concept_1": "Angina management;Coronary angiography;Lipid management;Antiplatelet therapy;Lifestyle modification"
+    },
+    {
+        "code": "427.31",
+        "concept_1": "Irregular heartbeat;Palpitations;Long-term anticoagulation;Rate control medication;ECG (Electrocardiogram)"
+    },
+    {
+        "code": "428.0",
+        "concept_1": "Dyspnea on exertion;Edema (leg swelling);Fatigue;Reduced ejection fraction;Diuretics"
+    },
+    {
+        "code": "518.81",
+        "concept_1": "Hypoxemia;Hypercapnia;Prolonged mechanical ventilation;Pulmonary edema;Respiratory support"
+    },
+    {
+        "code": "530.81",
+        "concept_1": "Heartburn;Antacids;Proton pump inhibitors;Lifestyle modifications (diet, exercise);Endoscopy"
+    },
+    {
+        "code": "584.9",
+        "concept_1": "Sudden drop in kidney function;Oliguria (low urine output);Fluid retention;Electrolyte imbalances;Dialysis initiation"
+    },
+    {
+        "code": "599.0",
+        "concept_1": "Dysuria (painful urination);Urinary frequency;Urinary urgency;Cloudy urine;Urine culture"
+    },
+    {
+        "code": "88.56",
+        "concept_1": "Catheter placement technique;Coronary angiography;Contrast medium administration;Assessment of coronary artery disease;Hemodynamic monitoring"
+    },
+    {
+        "code": "96.04",
+        "concept_1": "Airway management;Endotracheal intubation;Respiratory support;Mechanical ventilation initiation;Monitoring for ventilator-associated complications"
+    },
+    {
+        "code": "96.6",
+        "concept_1": "Enteral feeding;Tube feeding;Nutritional support;Feeding formula selection;Nutritional status assessment"
+    },
+    {
+        "code": "96.71",
+        "concept_1": "Ventilator management;Continuous positive airway pressure (CPAP);Noninvasive ventilation;Ventilator mode selection (e.g., assist-control, pressure support);Sedation and analgesia administration"
+    },
+    {
+        "code": "96.72",
+        "concept_1": "Prolonged mechanical ventilation;Tracheostomy placement;Secretion management;Prevention of ventilator-associated events (e.g., ventilator-associated pneumonia);Rehabilitation and weaning planning"
+    },
+    {
+        "code": "99.04",
+        "concept_1": "Blood transfusion;Transfusion compatibility testing;Crossmatching;Hemoglobin level assessment;Transfusion protocol adherence"
+    },
+    {
+        "code": "038.9",
+        "concept_1": "Blood culture positive;Fever management;Systemic inflammatory response syndrome (SIRS);Organ failure;Broad-spectrum antibiotics"
+    },
+    {
+        "code": "244.9",
+        "concept_1": "Thyroid function tests;TSH (Thyroid-stimulating hormone);Thyroid replacement therapy;Autoimmune thyroiditis;Goiter"
+    },
+    {
+        "code": "276.2",
+        "concept_1": "Blood pH measurement;Bicarbonate levels;Anion gap calculation;Renal function tests;Metabolic acidosis treatment (bicarbonate)"
+    },
+    {
+        "code": "285.1",
+        "concept_1": "Rapid blood loss;Hemoglobin drop;Hematocrit decrease;Transfusion requirement;Iron supplementation"
+    },
+    {
+        "code": "305.1",
+        "concept_1": "Nicotine dependence;Smoking;Tobacco withdrawal symptoms;Nicotine replacement therapy;Counseling for cessation"
+    },
+    {
+        "code": "311",
+        "concept_1": "Persistent sadness;Loss of interest (anhedonia);Sleep disturbances;Appetite changes;Antidepressant medication"
+    },
+    {
+        "code": "33.24",
+        "concept_1": "Bronchoscopy;Endoscopic biopsy;Pulmonary pathology examination;Tissue sampling;Respiratory function monitoring"
+    },
+    {
+        "code": "36.15",
+        "concept_1": "Assessment of coronary artery disease;Internal mammary artery harvest;Anastomosis;Myocardial ischemia;Postoperative care"
+    },
+    {
+        "code": "37.22",
+        "concept_1": "Left ventricular pressure measurement;Aortic valve assessment;Coronary angiography;Hemodynamic monitoring;Cardiac output measurement"
+    },
+    {
+        "code": "38.91",
+        "concept_1": "Arterial access;Hemostasis;Intra-arterial pressure monitoring;Vascular closure devices;Blood flow analysis"
+    },
+    {
+        "code": "403.90",
+        "concept_1": "Blood pressure control;Renal function tests;Urinalysis;Proteinuria screening;Nephrology consultation"
+    },
+    {
+        "code": "412",
+        "concept_1": "Cardiac imaging (echo, MRI);Scar tissue assessment;Functional heart assessment;Arrhythmia monitoring;Medication review (beta-blockers, ACE inhibitors)"
+    },
+    {
+        "code": "486",
+        "concept_1": "Cough;Fever management;Chest X-ray showing infiltrates;Sputum production;Dyspnea"
+    },
+    {
+        "code": "496",
+        "concept_1": "Wheezing;Shortness of breath;Chronic cough;Pulmonary function tests;Bronchodilators"
+    },
+    {
+        "code": "507.0",
+        "concept_1": "Coughing after eating;Aspiration events;Dysphagia;Broad-spectrum antibiotics;Chest X-ray showing infiltrates"
+    },
+    {
+        "code": "585.9",
+        "concept_1": "eGFR (estimated Glomerular Filtration Rate);Proteinuria screening;Hypertension;Phosphate binders;Dialysis planning"
+    },
+    {
+        "code": "88.72",
+        "concept_1": "Echocardiography;Cardiac structure assessment;Ejection fraction measurement;Valvular function evaluation;Monitoring cardiac function during stress testing"
+    },
+    {
+        "code": "99.15",
+        "concept_1": "Parenteral nutrition;Total parenteral nutrition (TPN);Central venous catheter insertion;TPN solution composition;Nutritional assessment and goal setting"
+    },
+    {
+        "code": "995.92",
+        "concept_1": "Sepsis management;Sepsis bundle implementation;Early goal-directed therapy for sepsis;Septic shock treatment;Organ dysfunction assessment in sepsis"
+    },
+    {
+        "code": "V58.61",
+        "concept_1": "Anticoagulant therapy monitoring;Anticoagulant dose adjustment;Anticoagulant administration;Bleeding risk assessment on anticoagulants;Patient education on anticoagulant therapy"
+    },
+    {
+        "code": "276.1",
+        "concept_1": "Serum sodium test;Fluid restriction;Diuretics;Symptoms of hyponatremia (confusion, seizures);Electrolyte monitoring"
+    },
+    {
+        "code": "287.5",
+        "concept_1": "Low platelet count;Easy bruising;Petechiae;Prolonged bleeding;Platelet transfusion"
+    },
+    {
+        "code": "37.23",
+        "concept_1": "Measurement of intracardiac pressures;Pulmonary artery pressure monitoring;Biplane angiography;Thermodilution cardiac output measurement;Pulmonary vascular resistance evaluation"
+    },
+    {
+        "code": "378.52",
+        "concept_1": "Ptosis;Pupil dilation;Extraocular movement impairment;Eye position examination;MRI of the brain and orbit"
+    },
+    {
+        "code": "39.95",
+        "concept_1": "Vascular access creation (fistula, graft);Dialyzer function;Electrolyte imbalances;Toxin removal;Access site care"
+    },
+    {
+        "code": "410.71",
+        "concept_1": "Chest pain;EKG changes;Cardiac biomarkers (troponin levels);Emergency angioplasty;Thrombolytic therapy"
+    },
+    {
+        "code": "424.0",
+        "concept_1": "Mitral valve prolapse;Mitral regurgitation;Mitral stenosis;Heart murmur;Echocardiogram"
+    },
+    {
+        "code": "45.13",
+        "concept_1": "Capsule endoscopy;Double-balloon enteroscopy;Endoscopic biopsy;Small bowel imaging;Gastrointestinal bleeding source identification"
+    },
+    {
+        "code": "506.0",
+        "concept_1": "Cough;Chemical exposure history;Wheezing;Pulmonary function decline;Inhalation injury"
+    },
+    {
+        "code": "511.9",
+        "concept_1": "Pleuritic Pain;Pleural fluid analysis;Thoracentesis;Dyspnea;Chest X-ray"
+    },
+    {
+        "code": "52.0",
+        "concept_1": "Pancreatic surgery;Drainage of pancreatic cyst;Biopsy of pancreas;Postoperative care;Pain control measures"
+    },
+    {
+        "code": "53.02",
+        "concept_1": "Herniorrhaphy;Mesh placement;Anesthesia;Postoperative pain management;Wound care"
+    },
+    {
+        "code": "569.42",
+        "concept_1": "Proctalgia;Digital rectal examination;Anoscopy;Hemorrhoids;Pain management strategies"
+    },
+    {
+        "code": "607.82",
+        "concept_1": "Erectile dysfunction;Blood flow analysis;Vascular surgery;Long-term anticoagulation;Diabetes management (vascular health)"
+    },
+    {
+        "code": "737.43",
+        "concept_1": "Spinal curvature measurement;X-ray imaging;MRI of spine;Orthopedic brace;Physical therapy"
+    },
+    {
+        "code": "873.52",
+        "concept_1": "Wound cleaning and debridement;Assessment for foreign bodies;Suturing or closure of wound;Antibiotic therapy (if infection present);Pain management strategies"
+    },
+    {
+        "code": "990",
+        "concept_1": "Radiation exposure;Radiation therapy side effects;Radiation dermatitis;Radiation-induced fibrosis;Radiation toxicity management"
+    },
+    {
+        "code": "V15.82",
+        "concept_1": "Smoking cessation counseling;Nicotine replacement therapy;Tobacco cessation medications;Health consequences of smoking;Tobacco dependence treatment"
+    },
+    {
+        "code": "V45.81",
+        "concept_1": "Coronary artery bypass graft (CABG) patency assessment;Post-CABG cardiac rehabilitation;CABG complications management;Cardiac monitoring after CABG;CABG lifestyle modifications"
+    },
+    {
+        "code": "40.7",
+        "concept_1": "Outpatient Care;Intravenous Insulin Therapy;Diabetes Management;Insulin Pump;Glycemic Control"
+    },
+    {
+        "code": "148.1",
+        "concept_1": "Dysphagia;Odynophagia;Neck mass;Squamous cell carcinoma;Radiation therapy"
+    },
+    {
+        "code": "252.08",
+        "concept_1": "Serum calcium level;Parathyroid hormone (PTH) level;Kidney stones;Neck ultrasound;Parathyroidectomy"
+    },
+    {
+        "code": "282.2",
+        "concept_1": "Glutathione reductase activity;Hemolysis markers (lactate dehydrogenase, haptoglobin);Oxidative stress test;Splenomegaly;Blood transfusion"
+    },
+    {
+        "code": "318.2",
+        "concept_1": "Severe cognitive impairment;Dependency in daily activities;Caregiver support;Behavioral therapy;Genetic testing"
+    },
+    {
+        "code": "34.71",
+        "concept_1": "Chest wall trauma;Suturing technique;Infection prevention;Chest X-ray to rule out underlying injury;Pain management strategies"
+    },
+    {
+        "code": "351.9",
+        "concept_1": "Facial palsy;Electromyography (EMG);MRI of the brain and facial nerve;Corticosteroids;Physical therapy for facial muscles"
+    },
+    {
+        "code": "362.11",
+        "concept_1": "Blood pressure control;Retinal examination;Vascular damage in retina;Visual acuity testing;Systemic hypertension management"
+    },
+    {
+        "code": "447.9",
+        "concept_1": "Vascular ultrasound;Angiography;Blood flow restriction;Antiplatelet therapy;Blood pressure control"
+    },
+    {
+        "code": "550.11",
+        "concept_1": "Hernia examination;Signs of obstruction (nausea, vomiting);Surgical consultation;Mesh repair complications;Postoperative care"
+    },
+    {
+        "code": "710.8",
+        "concept_1": "Autoantibody tests (ANA, RF);Joint pain and swelling;Skin rash;Corticosteroids;Immunosuppressive drugs"
+    },
+    {
+        "code": "719.49",
+        "concept_1": "Joint examination;Rheumatologic assessment;X-rays of affected joints;NSAIDs (nonsteroidal anti-inflammatory drugs);Physical therapy"
+    },
+    {
+        "code": "747.69",
+        "concept_1": "Doppler ultrasound;Angiography;Genetic testing for vascular anomalies;Vascular surgery;Symptoms of vascular insufficiency"
+    },
+    {
+        "code": "780.94",
+        "concept_1": "Dietary assessment;Gastroscopy;Gastric motility studies;Abdominal ultrasound;Nutritional counseling"
+    },
+    {
+        "code": "816.02",
+        "concept_1": "X-ray of hand;Splinting or casting;Pain control measures;Swelling management (ice, elevation);Occupational therapy"
+    },
+    {
+        "code": "955.3",
+        "concept_1": "Physical examination (wrist drop assessment);Sensory examination (dorsal hand sensation);Motor function evaluation (finger extension);EMG and NCS studies;Surgical exploration and repair"
+    },
+    {
+        "code": "959.7",
+        "concept_1": "Physical examination (joint stability assessment);X-ray imaging;Orthopedic consultation;Immobilization (splinting, casting);Pain management (analgesics, NSAIDs)"
+    },
+    {
+        "code": "V18.3",
+        "concept_1": "Genetic predisposition to blood disorders;Inherited hematologic disorders;Hematologic malignancies in family history;Hemophilia family history;Von Willebrand disease family history"
+    },
+    {
+        "code": "V26.52",
+        "concept_1": "Vasectomy reversal;Post-vasectomy semen analysis;Contraceptive counseling after vasectomy;Vasectomy complications;Vasectomy recovery instructions"
+    },
+    {
+        "code": "V65.3",
+        "concept_1": "Dietary assessment;Diet modification counseling;Healthy eating habits education;Weight management counseling;Dietary guidelines adherence"
+    },
+    {
+        "code": "512.2",
+        "concept_1": "Chest X-ray;Thoracostomy;Spontaneous Pneumothorax;Tension Pneumothorax;Respiratory Distress"
+    },
+    {
+        "code": "17.36",
+        "concept_1": "Laparoscopic surgery;Partial colectomy;Colon cancer;Polypectomy;Sigmoid colon"
+    },
+    {
+        "code": "171.0",
+        "concept_1": "Sarcoma;MRI of head and neck;Biopsy;Soft tissue tumor;Radiation therapy"
+    },
+    {
+        "code": "176.0",
+        "concept_1": "Human herpesvirus 8 (HHV-8);Immunocompromised state;HIV infection;Purple, red, or brown skin lesions;HAART therapy (for HIV-associated cases)"
+    },
+    {
+        "code": "202.82",
+        "concept_1": "Lymphoma;Biopsy of lymph node;Mediastinal mass;CT scan chest;Chemotherapy"
+    },
+    {
+        "code": "270.6",
+        "concept_1": "Ammonia levels;Genetic testing;Protein intolerance;Hepatic encephalopathy;Dietary management"
+    },
+    {
+        "code": "338.28",
+        "concept_1": "Pain management;Analgesic therapy;Pain scale evaluation;Neuropathic pain agents;Psychological support"
+    },
+    {
+        "code": "38.47",
+        "concept_1": "Vascular surgery;Vein grafting;Abdominal vein resection;Vascular anastomosis;Postoperative imaging"
+    },
+    {
+        "code": "477.8",
+        "concept_1": "Sneezing;Nasal congestion;Itchy eyes;Allergen identification (specific testing);Antihistamines"
+    },
+    {
+        "code": "596.89",
+        "concept_1": "Urinary Retention;Bladder pain;Interstitial cystitis;Urinary tract infection testing;Bladder function tests (urodynamics)"
+    },
+    {
+        "code": "701.0",
+        "concept_1": "Localized thickening of skin;Morphea plaques;Skin biopsy;Topical corticosteroids;Ultraviolet light therapy"
+    },
+    {
+        "code": "77.7",
+        "concept_1": "Bone graft harvesting;Surgical site preparation;Postoperative pain management;Risk of infection management;Bone healing monitoring"
+    },
+    {
+        "code": "785.9",
+        "concept_1": "ECG (Electrocardiogram);Stress test;Holter monitoring;Echocardiography;Cardiology referral"
+    },
+    {
+        "code": "790.8",
+        "concept_1": "Blood viral load testing;Symptom assessment for viral infection;Antiviral therapy consideration;Monitoring for disease progression;Liver function tests (if hepatitis suspected)"
+    },
+    {
+        "code": "813.32",
+        "concept_1": "X-ray imaging of the forearm;Wound cleaning and debridement;Fracture reduction;Internal fixation (plates, screws);Postoperative rehabilitation"
+    },
+    {
+        "code": "955.1",
+        "concept_1": "Neurological assessment;Sensory testing (two-point discrimination);Motor function assessment (thumb opposition);Electromyography (EMG);Nerve conduction studies (NCS)"
+    },
+    {
+        "code": "958.91",
+        "concept_1": "Pain assessment (out of proportion to injury);Sensory examination (paresthesia);Compartment pressure monitoring;Fasciotomy procedure;Physical therapy for range of motion"
+    },
+    {
+        "code": "999.82",
+        "concept_1": "Chemotherapy extravasation;Extravasation injury management;Vesicant drug administration precautions;Extravasation prevention strategies;Local wound care for extravasation injuries"
+    },
+    {
+        "code": "V10.61",
+        "concept_1": "Cancer survivorship care;Long-term follow-up for leukemia survivors;Health maintenance for cancer survivors;Second primary cancer screening;Screening for treatment-related complications"
+    },
+    {
+        "code": "998.01",
+        "concept_1": "Anesthetic Complications;Postoperative Hemorrhage;Surgical Site Infection (SSI);Venous Thromboembolism (VTE);Postoperative Cognitive Dysfunction (POCD)"
+    },
+    {
+        "code": "453.50",
+        "concept_1": "Deep Vein Thrombosis (DVT);Pulmonary Embolism (PE);Venous Thromboembolism (VTE);Thrombophlebitis;Compression Stockings"
+    }
+]
+
+
