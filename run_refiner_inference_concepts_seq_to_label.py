@@ -26,6 +26,10 @@ from tqdm import tqdm
 import time
 from datasets import Dataset
 from sklearn.model_selection import train_test_split
+
+from codes_50 import codes_50
+from rare_50 import rare_50
+
 print(f"PID => {os.getpid()}")
 
 print(torch.cuda.device_count())  # Check number of available GPUs
@@ -94,17 +98,17 @@ Answer the question above in a clear Yes/No format, on a new line.
     prompt = f"{pre_prompt}\n{truncated_note}\n{ques_prompt}"
     return prompt
 
-data_file = "../test_50.csv"
+data_file = "../test_50.csv" # your file for rare-50
 
-code_file = "../ALL_CODES_50.txt"
+#code_file = codes_50 # rare_50"../ALL_CODES_50.txt"
 
-codes = set()
-
+codes = codes_50[:] # rare_50"
+"""
 with open(code_file, "r") as f:
     for line in f:
         if line.strip() != "":
             codes.add(line.strip())
-
+"""
 assert len(codes) == 50
 
 label_list = sorted(list(codes))
@@ -173,12 +177,9 @@ for l in label_list:
     if l not in concept_dict.keys():
         print(f"not in keys : {l} desc : {label_descriptions[l]}")
 
-#output_file = "./mimic_full_concept_predictions_50pcnt.json"
-
 concept_predictions = {}
 
-#llm = pipeline("text-generation", model=model_id, device=device)  # Replace with your desired LLM pipeline or API
-df = pd.read_csv(data_file)
+df = pd.read_csv(data_file) # or, handle for json file types
 total = 0
 correct = 0
 all_gt = np.zeros((len(df), num_labels))
@@ -190,7 +191,6 @@ curr = 0
 c_1 = 0
 tot_1 = 0
 #df = df.sample(n=100, random_state=42)
-data_list = []
 
 
 print("Before operation df iteration rows:")
@@ -217,11 +217,9 @@ peft_tokenizer.pad_token = peft_tokenizer.eos_token
 tokenizer = peft_tokenizer
 #for index, row in df.iterrows():
 
-with open("./mimic3_50_concepts_binary_preds.json", 'r') as json_file:
+with open("./mimic3_50_concepts_binary_preds.json", 'r') as json_file: # concept prediction file
     preds_dict = json.load(json_file)
 
-nos = 0
-pos = 0
 ind = -1
 
 
@@ -316,17 +314,17 @@ for index, row in tqdm(df.iterrows(), total=len(df), desc="Processing rows"):
         metrics = all_metrics(yhat=all_preds[:curr], y=all_gt[:curr], yhat_raw=all_preds_raw[:curr])
         report = f"curr : {curr}, metrics : {metrics}\n"
         print(report)
-        with open("../previous_works/top_50/metrics_concepts_seq_to_label_50.txt", "a") as f:
+        with open("../previous_works/top_50/metrics_concepts_seq_to_label_50.txt", "a") as f: #change the location
             f.write(report)
-        np.save('../previous_works/top_50/all_preds_concepts_seq_to_label_50.npy', all_preds)
-        np.save('../previous_works/top_50/all_preds_raw_concepts_seq_to_label_50.npy', all_preds_raw)
+        np.save('../previous_works/top_50/all_preds_concepts_seq_to_label_50.npy', all_preds) #change the location
+        np.save('../previous_works/top_50/all_preds_raw_concepts_seq_to_label_50.npy', all_preds_raw) #change the location
 
 
 metrics = all_metrics(yhat=all_preds[:curr], y=all_gt[:curr], yhat_raw=all_preds_raw[:curr])#[:curr])
 print(f"metrics {metrics}")
 report = f"curr : {curr}, metrics : {metrics}\n"
-with open("../previous_works/top_50/metrics_concepts_seq_to_label_50.txt", "a") as f:
+with open("../previous_works/top_50/metrics_concepts_seq_to_label_50.txt", "a") as f: #change the location
     f.write(report)
-np.save('../previous_works/top_50/all_preds_concepts_seq_to_label_50.npy', all_preds)
-np.save('../previous_works/top_50/all_preds_raw_concepts_seq_to_label_50.npy', all_preds_raw)
+np.save('../previous_works/top_50/all_preds_concepts_seq_to_label_50.npy', all_preds) #change the location
+np.save('../previous_works/top_50/all_preds_raw_concepts_seq_to_label_50.npy', all_preds_raw) #change the location
 
