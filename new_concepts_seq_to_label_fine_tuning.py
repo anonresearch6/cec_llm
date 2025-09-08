@@ -402,7 +402,7 @@ trainer = transformers.Trainer(
 model.config.use_cache = False
 trainer.train()
 
-trainer.model.save_pretrained("./new_rare_ft_concepts_seq_to_label")
-tokenizer.save_pretrained("./new_rare_ft_concepts_seq_to_label")
-print("Fine-tuning completed and model saved.")
+trainer.model.save_pretrained("./new_rare_ft_concepts_seq_to_label") #change the location
+tokenizer.save_pretrained("./new_rare_ft_concepts_seq_to_label") #change the location
+print("Fine-tuning completed and model saved.") #change the location
 
